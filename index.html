@@ -3,35 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ungkap Perasaan</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tambahkan ikon font (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>anooo..... >///< </h1>
-        <button id="ungkapButton">Klik ini</button>
-
-        <!-- Pertanyaan "Mau nggak jadi pacarku?" -->
-        <div id="pertanyaan" class="hidden">
-            <p>Mau nggak jadi pacarku?</p>
-            <button id="iyaButton">Iya</button>
-            <button id="tidakButton">Tidak</button>
+    <header>
+        <div class="container">
+            <h1>Portofolio Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#tentang">Tentang Saya</a></li>
+                    <li><a href="#keahlian">Keahlian</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <!-- Jika jawaban "Iya", tampilkan foto -->
-        <div id="fotoSection" class="hidden">
-          
-            <img id="foto" src="foto22.jpg" alt="Foto untukmu" style="max-width: 100%; height: auto;">
-
+    <section id="tentang" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="tentang-content">
+                <img src="img.webp" alt="Foto Profil Saya" class="profile-img">
+                <p>
+    Halo! Saya adalah seorang fresh graduate yang saat ini bekerja di bidang distribusi suplai pangan dengan status freelance. 
+    Saya memiliki minat yang besar dalam mempelajari hal-hal baru, terutama dalam pengembangan diri dan teknologi. 
+    Saat ini, saya sedang belajar bahasa asing, yaitu bahasa Inggris dan Jepang, untuk meningkatkan kemampuan komunikasi saya di tingkat global. 
+    Selain itu, untuk mengisi waktu luang, saya sering mempelajari teknologi digital, seperti pemrograman dan desain, sebagai bentuk pengembangan keterampilan tambahan. 
+    Saya percaya bahwa belajar adalah proses seumur hidup, dan saya selalu bersemangat untuk mengeksplorasi peluang baru.
+</p>
+            </div>
         </div>
+    </section>
 
-        <!-- Jika jawaban "Tidak", tampilkan opsi "Ya atau Ya" -->
-        <div id="opsiLain" class="hidden">
-            <p>anjir parah loe :( </p>
-            <button id="iyaLagiButton">Ya</button>
-            <button id="iyaLagiButton2">Ya</button>
+    <section id="keahlian" class="section">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <ul class="keahlian-list">
+                <li>bahasa indonesia (aktif)</li>
+                <li>bahasa inggris (pasif)</li>
+                <li>bahasa jepang (pasif)</li>
+                <li>Disiplin</li>
+                <li>Kreatif</li>
+            </ul>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </section>
+
+    <section id="kontak" class="section">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>
+                Jika Anda tertarik untuk bekerja sama, silakan hubungi saya melalui:
+            </p>
+            <ul class="kontak-list">
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    Email: <a href="mailto:email@example.com">exxxxx</a>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    Telepon: +62 xxxx
+                </li>
+                <li>
+                    <i class="fab fa-tiktok"></i>
+                    Tiktok: <a href="https://www.tiktok.com/@BudiWahyudi" target="_blank">@BudiWahyudi</a>
+                </li>
+                <li>
+                    <i class="fab fa-youtube"></i>
+                    YouTube: <a href="https://www.youtube.com/@BudiWahyudi" target="_blank">@BudiWahyudi</a>
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                    Instagram: <a href="https://www.instagram.com/@yonggbao" target="_blank">@Yonggbao</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Portofolio Saya. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
